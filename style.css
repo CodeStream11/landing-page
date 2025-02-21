@@ -90,16 +90,21 @@ body {
 }
 
 
-.containertwo {
+.body {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    justify-content: center;
+    gap: 250px;
     padding-left: 200px;
     padding-right: 200px;
     border: 1px solid;
     border-color: #f638b7;
     color: white;  
     height: 400px;
+}
+
+.boxcontainer {
+    
+   
 }
 
 .box {
@@ -120,8 +125,6 @@ body {
     color:#3882F6;
     max-width: 150px;
     text-align: center;
-  
-    
-    
-    
+
 }
+
