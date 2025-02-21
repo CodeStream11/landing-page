@@ -17,9 +17,14 @@
     font-size: 18px;
     color: #E5E7EB; 
 }
+
 .links {
     display: flex;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -52,7 +57,6 @@ a {
    flex-direction: column;
    width: 450px;
    justify-content: center;
-   
 }
 
 #signup {
@@ -63,7 +67,6 @@ a {
     margin-top: 8px;
     border: 1px transparent;
     border-radius: 8px;
-
 }
 
 .placeholder {
@@ -73,6 +76,35 @@ a {
     background-color: gray;
     color: white;
     width: 500px;
+}
+
+/* end of header section */
+
+.info {
+    text-align: center;
+}
+
+body {
+    border: 1px solid;
     
 }
 
+
+.containertwo {
+    display: flex;
+    justify-content: space-between;
+
+    
+    border: 1px solid;
+    border-color: #f638b7;
+    color: white;
+    
+}
+
+.box {
+    border: 1px solid;
+    border-color: #3882F6;
+    width: 400px;
+    background-color: #bdc3ce;
+}
+    
