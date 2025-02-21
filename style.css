@@ -92,8 +92,8 @@ body {
 
 .containertwo {
     display: flex;
-    justify-content: center;
-    gap: 200px;
+    flex-direction: column;
+    gap: 8px;
     padding-left: 200px;
     padding-right: 200px;
     border: 1px solid;
@@ -111,15 +111,17 @@ body {
     border: 1px transparent;
     border-radius: 8px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .subtext {
-    max-width: 200px;
     color:#3882F6;
+    max-width: 150px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  
+    
+    
     
 }
