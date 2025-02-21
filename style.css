@@ -92,19 +92,34 @@ body {
 
 .containertwo {
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: center;
+    gap: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
     border: 1px solid;
     border-color: #f638b7;
-    color: white;
-    
+    color: white;  
+    height: 400px;
 }
 
 .box {
     border: 1px solid;
     border-color: #3882F6;
-    width: 400px;
+    width: 150px;
+    height: 150px;
     background-color: #bdc3ce;
-}
+    border: 1px transparent;
+    border-radius: 8px;
+    display: flex;
     
+}
+
+.subtext {
+    max-width: 200px;
+    color:#3882F6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
