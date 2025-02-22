@@ -91,7 +91,8 @@ a {
 }
 
 body {
-   
+   display: flex;
+   flex-direction: column;
     
 }
 
@@ -133,6 +134,11 @@ body {
 
 /* end of boxes section */
 
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .quotetext {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -152,22 +158,33 @@ body {
 /* end of quote section */
 
 .ctacontainer {
+    display: flex;
     border: 1px solid;
+    border-color: pink;
     background-color: white;
-    margin-left: 200px;
-    margin-right: 200px;
     
+}
+
+.ctabox {
+    border: 1px solid;
     
 }
 
 .ctatext {
-    border: 1px solid;
-    font-size: 36px;
+    
+    font-size: 24px;
     background-color:#3882F6;
     color: white;
-    display: flex;
     height: 150px;
+    width: 1486px;
+    display: flex;
     margin-top: 48px;
     margin-bottom: 48px;
-    
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.ctabuttoncontainer {
+    border: 1px solid;
 }
