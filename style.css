@@ -102,7 +102,7 @@ body {
     gap: 200px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
     color: white;  
 }
 
@@ -140,6 +140,15 @@ body {
 .quotetext {
     background-color: #E5E7EB;
     font-size: 36px;
-    padding-top: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
 
+.thorcontainer {
+    margin-left: 580px;
+    padding-top: 16px;
+    font-size: 28px;
+    font-weight: 700;
 }
