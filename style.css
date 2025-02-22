@@ -91,7 +91,7 @@ a {
 }
 
 body {
-    border: 1px solid;
+   
     
 }
 
@@ -102,6 +102,7 @@ body {
     gap: 200px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 24px;
     color: white;  
 }
 
@@ -119,7 +120,6 @@ body {
     background-color: white;
     color:#ccd4e9;
     margin-bottom: 8px;
-
 }
 
 
@@ -131,4 +131,15 @@ body {
 
 }
 
-/* end of body section*/
+/* end of boxes section*/
+
+.quotecontainer {
+   display: flex; 
+   
+}
+.quotetext {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding-top: 24px;
+
+}
