@@ -160,12 +160,22 @@ body {
 .ctacontainer {
     display: flex;  
     justify-content: center;
+    align-items: center;
 }
 
 .ctabox {
 display: flex;
+align-items: center;
+justify-content: space-between;
 background-color: #3882F6;
-
+margin-top: 42px;
+margin-bottom: 42px;
+margin-left: 200px;
+margin-right: 200px;
+padding: 50px;
+padding-left: 150px;
+padding-right: 150px;
+flex-grow: 1;
 }
 
 .ctatext {
@@ -175,5 +185,17 @@ background-color: #3882F6;
    
 .boldctatext {
     color: white;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+#signuptwo {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: white;
     font-weight: 900;
 }
